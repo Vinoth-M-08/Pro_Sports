@@ -1,0 +1,156 @@
+.vv
+{
+    /* width: 50%; */
+    margin-left: 5rem;
+}
+.si_up
+{
+    margin-left: -10rem;
+}
+#movee
+{
+    margin-left: 5rem;
+}
+.zz
+{
+    width: 40%;
+    margin-left: 8rem;
+    padding-top: 100px;
+}
+.mtt-1
+{
+    width: 450px;
+    margin-left: -1rem;
+}
+.box-con
+{
+    margin-left: -4rem;
+    margin-top: -3.5rem;
+}
+.booxx
+{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 20px;
+    border-radius: 25px;
+    height: 25rem;
+}
+.boox
+{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 20px;
+    border-radius: 25px;
+}
+.aaa
+{
+    margin-left: 17rem;
+    margin-bottom: -5rem;
+}
+.aa
+{
+    margin-left: 14rem;
+    color: black;
+    margin-bottom: -5rem;
+}
+.mv1
+{
+    margin-left: 30px !important;
+}
+.mv
+{
+    margin-left: 60px !important;
+}
+#move{
+    margin-left: 170px;
+    width: 300px;
+    height: min-content;
+}
+.aaa{
+    margin-right: 100px;
+}
+b{
+    padding-right: 5rem;
+}
+p{
+    padding-right: 4rem;
+}
+.mt-3-link-mv1{
+    padding-left: 420px;
+    padding-top: 1rem;
+}
+.mainss {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contenter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .overlayerr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    /* background-color: #000000cc; */
+  }
+.dd
+{
+    display:flex ;
+}
+.flex1
+{
+    flex: 1;
+}
+.flex2
+{
+    flex: 1;
+}
+.main{
+    display: flex;
+}
+.tem1{
+    height: 500px;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+}
+.tem2{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.mb-3
+{
+    width: 365px;
+}
+.p-3
+{
+    padding-top: 0px !important;
+}
+#kanna
+{
+    padding-top: 100px !important;
+}

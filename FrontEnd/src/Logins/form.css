@@ -1,0 +1,51 @@
+/* Styles for form container */
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust width for better responsiveness */
+    max-width: 280px; /* Set a maximum width to control form width on larger screens */
+  }
+  
+  /* Styles for form input */
+  input {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%; /* Adjust width for better responsiveness */
+  }
+  
+  /* Styles for the additional information text */
+  .redux {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  /* Styles for the error message */
+  .span {
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+  }
+  
+  /* Styles for the invalid input */
+  input:invalid[focused="true"] {
+    border: 1px solid red;
+  }
+  
+  /* Styles for the displayed error message */
+  input:invalid[focused="true"] ~ .span {
+    display: block;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .formInput {
+      max-width: 100%; /* Allow the form to use the full width on smaller screens */
+    }
+  
+    input {
+      width: 100%; /* Allow the input to use the full width on smaller screens */
+    }
+  }

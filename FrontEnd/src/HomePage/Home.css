@@ -1,0 +1,91 @@
+/* Common styles for all screen sizes */
+.sliderss {
+   margin-top: -5rem;
+}
+
+.brand-container {
+   display: flex;
+   gap: 11rem;
+   margin-left: 8rem;
+   margin-top: 5rem;
+}
+
+.Bad_h3 {
+   color: gray;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.Bad_h2 {
+   color: black;
+   padding: 50px 0 14px;
+   text-align: left;
+   font-size: 18px;
+   margin-bottom: -3.5rem;
+   margin-left: 60rem;
+   text-transform: uppercase;
+}
+
+.rain_dot {
+   margin-left: 2rem;
+   text-transform: uppercase;
+}
+
+.rain_pro {
+   margin-left: 2rem;
+   color: #666;
+   text-transform: uppercase;
+}
+
+.Bad_p {
+   width: 30rem;
+   margin-left: 60rem;
+   margin-top: -25rem;
+   line-height: 2rem;
+   color: #666;
+   padding: 0;
+   font-size: 20px;
+}
+
+.body {
+   /* background-color: white; */
+}
+
+.banner_img {
+   margin-left: 7rem;
+   margin-top: 2rem;
+}
+
+.Raq {
+   margin-top: 2rem;
+   margin-left: 8rem;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+   .brand-container {
+      flex-direction: column;
+      gap: 2rem;
+      margin-left: 2rem;
+      margin-top: 2rem;
+   }
+
+   .Bad_h2 {
+      margin-left: 2rem;
+   }
+
+   .Bad_p {
+      margin-left: 2rem;
+      width: auto;
+      margin-top: 0;
+   }
+
+   .banner_img {
+      margin-left: 2rem;
+      margin-top: 2rem;
+   }
+
+   .Raq {
+      margin-left: 2rem;
+   }
+}
